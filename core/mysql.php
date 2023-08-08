@@ -43,7 +43,14 @@ function atualiza(string $entidade, array $dados, array $criterio = []) : bool
     }
 
     foreach ($criterio as $expressao)
-    $dado 
+    $dado = $expressao[count($expressao) -1];
+
+    $tipo[] = gettype($dado)[0];
+    $expressao[count($expressao) -1] = '?';
+    $coringa_criterio[] = $expressao;
+
+    $nome_campo = (count($expressao));
 }
+
 
 ?>
