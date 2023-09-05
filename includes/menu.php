@@ -3,7 +3,7 @@
         Menu
     </div>
     <div class="card-body">
-        <ul class="nav-flex-column">
+        <ul class="nav flex-column">
             <li class="nav-item">
                 <a class="nav-link" href="index.php">Home</a>
             </li>
@@ -16,12 +16,12 @@
             <li class="nav-item">
                 <a class="nav-link" href="post_formulario.php">Incluir Post</a>
             </li>
-            <?php if ((isset($_SESSION['login']))
-                    && ($_SESSION['login']['usuario']['adm'] === 1)) : ?>
+            <?php if((isset($_SESSION['login']))
+                && ($_SESSION['login']['usuario']['adm'] === 1)) : ?>
             <li class="nav-item">
-                <a class="nav_link" href="usuarios.php">Usuários</a>
+                <a class="nav-link" href="usuarios.php">Usuários</a>
             </li>
-            <?php endif; ?>
+            <?php endif; ?>    
         </ul>
     </div>
 </div>
