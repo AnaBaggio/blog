@@ -1,7 +1,7 @@
 <!DOCTYPE html> <!--Código de cadastro de posts-->
 <html>
     <head>
-        <litle>Post | Projeto para Web com PHP</litle>
+        <title>Post | Projeto para Web com PHP</title>
         <link rel="stylesheet"
             href="lib/bootstrap-4.2.1-dist/css/bootstrap.min.css">
     </head>
@@ -11,7 +11,7 @@
                 <div class="col-md-12">
                     <?php 
                     include 'includes/topo.php';
-                    include 'includes/valida_login.php' ?>
+                    include 'includes/valida_login.php'; ?>
                 </div>
 
             </div>
